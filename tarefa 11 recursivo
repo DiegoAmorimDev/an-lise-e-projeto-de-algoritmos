@@ -1,0 +1,17 @@
+import time
+
+def F_recursive(n):
+    if n == 0:
+        return 1
+    elif n == 1:
+        return 10
+    else:
+        return F_recursive(n - 1) + F_recursive(n - 2)
+
+# n=100
+start_time = time.time()
+result_recursive_100 = F_recursive(100)
+end_time = time.time()
+print(f"Resultado F(100) recursivo: {result_recursive_100}, Tempo: {end_time - start_time:.6f} segundos")
+
+
