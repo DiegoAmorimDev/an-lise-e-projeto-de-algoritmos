@@ -1,2 +1,2 @@
-# an-lise-e-projeto-de-algoritmos
-tasks
+# analise-e-projeto-de-algoritmos
+tarefas da disciplina
